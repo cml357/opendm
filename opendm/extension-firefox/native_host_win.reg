@@ -1,9 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Enregistrement pour Firefox
-[HKEY_CURRENT_USER\Software\Mozilla\NativeMessagingHosts\com.opendm.downloader]
-@="C:\\Program Files\\OpenDM\\native_messaging_host.json"
-
-; Enregistrement pour Google Chrome / Edge / Brave
-[HKEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\com.opendm.downloader]
-@="C:\\Program Files\\OpenDM\\native_messaging_host.json"

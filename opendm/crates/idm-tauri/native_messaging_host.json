@@ -1,9 +1,0 @@
-{
-  "name": "com.rustidm.downloader",
-  "description": "Host Native Messaging pour RustIDM",
-  "path": "rust-idm.exe",
-  "type": "stdio",
-  "allowed_extensions": [
-    "rustidm-extension@nicklaus.local"
-  ]
-}
