@@ -1,0 +1,29 @@
+[workspace]
+members = [
+    "crates/opendm-core",
+    "crates/opendm-muxer",
+    "crates/opendm-extractors",
+    "crates/opendm-tauri/src-tauri"
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.2.0"
+edition = "2021"
+authors = ["OpenDM Team <contact@opendm.org>"]
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+tokio = { version = "1.38", features = ["full"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "stream", "json", "cookies"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bytes = "1.6"
+futures-util = "0.3"
+anyhow = "1.0"
+thiserror = "1.0"
+regex = "1.10"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+url = "2.5"
+byteorder = "1.5"
